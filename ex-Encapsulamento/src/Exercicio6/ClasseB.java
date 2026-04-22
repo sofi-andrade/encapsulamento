@@ -8,6 +8,9 @@ package Exercicio6;
  *
  * @author cacal
  */
-public class ClasseA {
-    int num = 10;
+public class ClasseB {
+    public static void main(String args[]){
+        ClasseA obj = new ClasseA();
+        System.out.println(obj.num);
+    }
 }
