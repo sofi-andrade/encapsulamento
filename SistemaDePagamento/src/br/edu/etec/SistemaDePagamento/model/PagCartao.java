@@ -40,7 +40,8 @@ public class PagCartao extends Pagamento{
         System.out.println("----SISTEMA DE PAGAMENTO----");
         if (getValor() > 0) {
             System.out.println("Nº Cartao: " + getNumCartao());
-            System.out.println("Status do pagamento: " + status + "\n");
+            System.out.println("Status do pagamento: " + status);
+            System.out.println("Pagamento efetuado com sucesso!! " + "\n")
 
         } else {
             System.out.println("Nº Cartao: " + getNumCartao());
